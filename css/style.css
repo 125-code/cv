@@ -1133,6 +1133,7 @@ footer .credits a {
   border: 1px solid transparent;
   transition: all 500ms ease;
   cursor: pointer;
+  margin: auto;
 }
 
 .button:focus {
@@ -1158,6 +1159,25 @@ footer .credits a {
 
 .button-rouded {
   border-radius: 5rem;
+}
+
+.button-cont{
+  height: 200px;
+  position: relative;
+}
+
+.button p{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+}
+
+
+.vertical-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 
 .btn-lg {
